@@ -1,0 +1,3 @@
+services:
+    html2pdf.generator:
+        module:     !plugin_dir /PdfGenerator

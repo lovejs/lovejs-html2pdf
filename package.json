@@ -1,0 +1,31 @@
+{
+    "name": "@lovejs/html2pdf",
+    "author": "Vincent <vincent@fullstack.pro>",
+    "version": "1.0.0",
+    "description": "Lovejs html2pdf",
+    "main": "src/index.js",
+    "keywords": [
+        "lovejs",
+        "lovejs plugin",
+        "html to pdf",
+        "html",
+        "pdf"
+    ],
+    "license": "MIT",
+    "homepage": "http://lovejs.io/",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lovejs/lovejs-html2pdf.git"
+    },
+    "bugs": {
+        "url": "https://github.com/lovejs/lovejs-html2pdf/issues"
+    },
+    "dependencies": {
+        "phantom-html-to-pdf": "^0.5.6",
+        "phantomjs-prebuilt": "^2.1.16"
+    },
+    "peerDependencies": {
+        "@lovejs/components": "^0.0.1",
+        "@lovejs/framework": "^0.0.1"
+    }
+}
